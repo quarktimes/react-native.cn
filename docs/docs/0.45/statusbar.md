@@ -96,24 +96,25 @@
     </div>
     <div class="prop">
         <h4 class="methodTitle"><a class="anchor" name="setBackgroundColor"></a><span
-                class="methodType">static </span>setBackgroundColor<span class="methodType">(visible:boolean)</span> <a
+                class="methodType">static </span>setBackgroundColor<span class="methodType">(color:string, animated?:boolean)</span> <a
                 class="hash-link" href="#setBackgroundColor">#</a></h4>
         <div>
-            <p>显示／隐藏网络活动指示器</p>
+            <p>设置状态栏的背景色</p>
             <ul>
-                <li><code>visible</code>（布尔类型） - 是否显示网络活动指示器</li>
+             <li><code>color</code>（字符串） - 背景色</li>
+                <li><code>[animated]</code>（布尔类型） - 是否启用过渡动画</li>
+              
             </ul>
         </div>
     </div>
     <div class="prop">
         <h4 class="methodTitle"><a class="anchor" name="setNetworkActivityIndicatorVisible"></a><span
-                class="methodType">static </span>setNetworkActivityIndicatorVisible<span class="methodType">(color:string, animated?:boolean)</span> <a
+                class="methodType">static </span>setNetworkActivityIndicatorVisible<span class="methodType">(visible:boolean)</span> <a
                 class="hash-link" href="#setNetworkActivityIndicatorVisible">#</a></h4>
         <div>
-            <p>设置状态栏的背景色</p>
+            <p>显示／隐藏网络活动指示器</p>
             <ul>
-                <li><code>color</code>（字符串） - 背景色</li>
-                <li><code>[animated]</code>（布尔类型） - 是否启用过渡动画</li>
+                  <li><code>visible</code>（布尔类型） - 是否显示网络活动指示器</li>
             </ul>
         </div>
     </div>
